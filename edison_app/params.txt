@@ -1,0 +1,4 @@
+-edisonpath /home/jose/mitk/qtprojects/contrast_enhancement/build-edison-Desktop5-Release -indir /home/jose/wmh_challenge/WMH_2D_challenge/reduced/subjects/100/outPreProc -images FLAIR.nii.gz T1_bet_mask_rsfl.nii.gz -outdir /home/jose/wmh_challenge/WMH_2D_challenge/reduced/subjects/100/edison
+
+
+-edisonpath /home/jose/mitk/qtprojects/contrast_enhancement/build-edison-Desktop5-Release -indir /media/jose/Linux-ssd/WML2D/Subjects/S0082/OutPreProc-test/ -images FL_bcN4.nii LB_rsfl.nii -outdir /media/jose/Linux-ssd/WML2D/Subjects/S0082/edison-test

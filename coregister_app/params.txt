@@ -1,0 +1,1 @@
+-3dspath /media/jose/Linux/Slicer-4.4.0-linux-amd64 -indir /home/jose/wmh_challenge/WMH_2D_challenge/reduced/subjects/100/orig -images FLAIR.nii.gz T1.nii.gz T1_bet_mask.nii.gz -outdir /home/jose/wmh_challenge/WMH_2D_challenge/reduced/subjects/100/outPreProc -dbc

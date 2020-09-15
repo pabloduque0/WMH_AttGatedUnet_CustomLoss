@@ -1,0 +1,17 @@
+GradientWindowRadius = 5;
+MinimumLength = 5;
+NmxRank = 0.5;
+NmxConf = 0.5;
+NmxType = ARC;
+HysterisisHighRank = 0.9;
+HysterisisHighConf = 0.9;
+HysterisisHighType = BOX;
+HysterisisLowRank = 0.8;
+HysterisisLowConf = 0.8;
+HysterisisLowType = CUSTOM;
+CustomCurveHystLow = {(0.4,0.7), (0.6,0.3)};
+DisplayProgress ON;
+Load('/output/FLAIR.pgm', IMAGE);
+EdgeDetect;
+Save('/output/gradientmap.txt', MATLAB_ASCII, GRADIENT_MAP);
+Save('/output/edgesmap.pgm', PGM, EDGES);

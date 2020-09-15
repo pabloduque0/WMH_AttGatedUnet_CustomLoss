@@ -1,1 +1,1 @@
-# WMH_AttGatedUnet_CustomLoss
+# AttUnet_WeightedDSCLoss
